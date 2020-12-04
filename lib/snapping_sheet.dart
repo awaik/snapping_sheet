@@ -521,7 +521,7 @@ class _SnappingSheetState extends State<SnappingSheet>
               ? Positioned(
                   top: constraints.maxHeight -
                       _currentDragAmount +
-                      widget.sheetBelow.margin.top,
+                      widget.sheetBelow.margin.top - 1,
                   left: widget.sheetBelow.margin.left,
                   right: widget.sheetBelow.margin.right,
                   height: _getSheetHeight(false),
